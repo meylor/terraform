@@ -50,7 +50,8 @@ with this cache cluster
 * `port` – (Optional) The port number on which each of the cache nodes will 
 accept connections. Default 11211.
 
-* `subnet_group_name` – (Optional)
+* `subnet_group_name` – (Optional, VPC only) Name of the subnet group to be used 
+for the cache cluster.
 
 * `security_group_names` – (Optional, EC2 Classic only) List of security group 
 names to associate with this cache cluster
